@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/commonstyles.css">
 </head>
@@ -13,19 +14,19 @@
 <body>
     <!-- Шапка -->
     <header>
-        <nav>
-            <a href="">
-                <p>WebStudio</p>
+        <nav class="navigation">
+            <a href="" class="navigation-logo">
+                <p><span class="logo">Web</span>Studio</p>
             </a>
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li class="navigation-list list"><a href="./index.html" >Студия</a></li>
+                <li class="navigation-list list"><a href="">Портфолио</a></li>
+                <li class="navigation-list list"><a href="">Контакты</a></li>
             </ul>
         </nav>
         <ul>
-            <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li> <a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="contacts list"> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts list"> <a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
 
     </header>
@@ -55,6 +56,8 @@
                         <h3>Технокряк</h3>
                         <p>Веб-сайт</p>
                     </a>
+                </li>
+                <li>
                    <a href="">
                         <img src="./images/baseball.jpg" alt="Два баскетболиста с мячом" width="370" height="294">
                         <h3>Постер New Orlean vs Golden Star</h3>
@@ -115,20 +118,20 @@
     </main>
     <!-- Подвал -->
     <footer>
-        <a href="">
-            <p>WebStudio</p>
-        </a>
-        <section>
-            <h2>Как нас найти</h2>
-            <address>
-                <a href="https://goo.gl/maps/UZM62VKS9garVXZ96">г. Киев, пр-т Леси Украинки, 26</a>
-            </address>
-            <address>
-                <p><a href="mailto:info@example.com">info@example.com</a></p>
-                <p><a href="tel:+380991111111">+38 099 111 11 11</a></p>
-            </address>
-    
+        <div class="delete-class">
+            <a href="" class="navigation-logo">
+                 <p><span class="logo">Web</span><span class="backlogo">Studio</span></p>
+            </a>
+            <section>
+                <h2>Как нас найти</h2>
+                <address class="footaddress">
+                    <a href="https://goo.gl/maps/UZM62VKS9garVXZ96" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+                    <p><a href="mailto:info@example.com" class="footcontacts">info@example.com</a></p>
+                    <p><a href="tel:+380991111111" class="footcontacts">+38 099 111 11 11</a></p>
+                </address>
+          
         </section>
+        </div>
     </footer>
     </body>
     

@@ -5,35 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/commonstyles.css">
-</head>
+   </head>
 
 <body>
     <!-- Шапка -->
     <header>
-        <nav>
-            <a href="">
-                <p>WebStudio</p>
+        <nav class="navigation">
+            <a href="" class="navigation-logo">
+                <p><span class="logo">Web</span>Studio</p>
             </a>
             <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li class="navigation-list list"><a href="">Студия</a></li>
+                <li class="navigation-list list"><a href="./portfolio.html">Портфолио</a></li>
+                <li class="navigation-list list"><a href="">Контакты</a></li>
             </ul>
         </nav>
         <ul>
-            <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li> <a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="contacts list"> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts list"> <a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
 
     </header>
     <!-- Основной контент страницы Студия-->
     <main>
         <!-- Hero -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="hero">
+            <h1 class="hero-name">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="main-button">Заказать услугу</button>
         </section>
         <!-- Наши преимущества -->
         <section>
@@ -87,18 +88,18 @@
     </main>
     <!-- Подвал -->
     <footer>
-        <a href="">
-            <p>WebStudio</p>
+        <div class="delete-class">
+        <a href="" class="navigation-logo">
+            <p><span class="logo">Web</span><span class="backlogo">Studio</span></p>
         </a>
         <section>
             <h2>Как нас найти</h2>
-            <address>
-                <a href="https://goo.gl/maps/UZM62VKS9garVXZ96">г. Киев, пр-т Леси Украинки, 26</a>
+            <address class="footaddress">
+                <a href="https://goo.gl/maps/UZM62VKS9garVXZ96" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+                <p><a href="mailto:info@example.com" class="footcontacts">info@example.com</a></p>
+                <p><a href="tel:+380991111111" class="footcontacts">+38 099 111 11 11</a></p>
             </address>
-            <address>
-                <p><a href="mailto:info@example.com">info@example.com</a></p>
-                <p><a href="tel:+380991111111">+38 099 111 11 11</a></p>
-            </address>
+        </div>
 
         </section>
     </footer>
