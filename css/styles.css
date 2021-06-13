@@ -20,6 +20,7 @@
   left: 700px;
   top: 430px;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* Main content */
@@ -53,7 +54,8 @@ dd {
 }
 
 /* Стили страницы Портфолио */
-.list .button {
+.list .butt {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -62,6 +64,11 @@ dd {
   color: var(--main-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+}
+.butt:hover,
+.butt:focus {
+  background-color: var(--extra-color);
+  color: var(--main-white-color);
 }
 .projects a {
   text-decoration: none;

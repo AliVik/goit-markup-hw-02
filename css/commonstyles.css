@@ -68,3 +68,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
+.link:hover,
+.link:focus {
+  color: var(--extra-color);
+}
+
+.navigation-list .current {
+  color: var(--extra-color);
+}
